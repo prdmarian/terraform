@@ -44,6 +44,7 @@ git clone $REPO_URL $CLONE_DIR
 echo "Sincronizare aplicații cu ArgoCD..."
 kubectl apply -f $CLONE_DIR/applications/letsencrypt.yaml
 kubectl apply -f $CLONE_DIR/applications/prometheus.yaml
+kubectl apply -f $CLONE_DIR/applications/custom-exporter.yaml
 kubectl apply -f $CLONE_DIR/applications/grafana.yaml
 kubectl apply -f $CLONE_DIR/applications/ldap.yaml
 kubectl apply -f $CLONE_DIR/applications/git-cache.yaml
