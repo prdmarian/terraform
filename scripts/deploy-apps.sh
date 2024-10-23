@@ -10,7 +10,7 @@ fi
 # Setează variabile pentru namespace-uri și certificare SSL
 CERT_ISSUER_NAME="letsencrypt-prod"
 EMAIL="admin@elgg.ro"
-CERT_NAMESPACE="letsencrypt"
+CERT_NAMESPACE="cer-manager"
 REPO_URL="https://github.com/prdmarian/k8s-objects.git"
 CLONE_DIR="./k8s-objects"
 
