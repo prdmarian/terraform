@@ -20,7 +20,7 @@ variable "vagrant_box" {
 
 variable "vagrant_cpus" {
   description = "Number of CPUs for each VM"
-  default     = 6
+  default     = 4
 }
 
 variable "vagrant_memory" {
